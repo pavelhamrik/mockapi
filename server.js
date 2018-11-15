@@ -16,7 +16,7 @@ app.use(cors());
 
 app.get('/api/v1/assignments', cors(), (req, res) => {
     res.status(200).send(
-        getJSON('./src/assignments')
+        getJSON('./public/assignments')
     )
 });
 

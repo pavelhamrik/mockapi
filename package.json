@@ -1,13 +1,13 @@
 {
     "name": "mockapi",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "server.js",
     "repository": "https://github.com/pavelhamrik/mockapi.git",
     "author": "Pavel Hamrik <pavel.hamrik@gmail.com>",
     "license": "MIT",
     "private": false,
     "scripts": {
-        "start": "nodemon node_modules/.bin/babel-node src/server.js"
+        "start": "nodemon node_modules/.bin/babel-node server.js"
     },
     "dependencies": {
         "babel-cli": "^6.26.0",
