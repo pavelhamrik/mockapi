@@ -1,0 +1,18 @@
+{
+    "text": "Ze zadaných bodů vyberte tři, které tvoří rovnoramenný trojúhelník.",
+    "problem": {
+        "points": [
+            [4, 1], [2, 2], [5, 3], [2, 4], [3, 5]
+        ]
+    },
+    "solutions": [
+        {
+            "points": [
+                [2, 2], [5, 3], [2, 4]
+            ]
+        }
+    ],
+    "config": {
+        "select-only": 1
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "mockapi",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/pavelhamrik/mockapi.git",
+    "author": "Pavel Hamrik <pavel.hamrik@gmail.com>",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "start": "nodemon node_modules/.bin/babel-node src/server.js"
+    },
+    "dependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-latest": "^6.24.1",
+        "cors": "^2.8.5",
+        "express": "^4.16.4"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.6"
+    }
+}
