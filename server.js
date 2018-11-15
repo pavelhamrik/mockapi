@@ -7,9 +7,12 @@ const PORT = process.env.PORT || 3000;
 
 function getJSON(path) {
     const files = fs.readdirSync(path);
-    return files.length !== 0
-        ? fs.readFileSync(`${path}/${files[Math.round(Math.random() * files.length)]}`, {encoding: 'utf-8'})
-        : {}
+    if (files.length !== 0) {
+        const file = files[Math.round(Math.random() * (files.length - 1))];
+        console.log(`serving ${file}`);
+        return fs.readFileSync(`${path}/${file}`, {encoding: 'utf-8'});
+    }
+    return {};
 }
 
 app.use(cors());
