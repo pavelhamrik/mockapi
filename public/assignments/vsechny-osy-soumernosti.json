@@ -15,5 +15,8 @@
                 [[5,0],[0,5]]
             ]
         }
-    ]
+    ],
+    "config": {
+        "uiEvalSegmentsAsLines": true
+    }
 }
