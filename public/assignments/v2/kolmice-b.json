@@ -1,0 +1,15 @@
+{
+    "text": "Sestrojte kolmici k zadané přímce skrze daný bod.",
+    "problem": {
+        "points": [{"geometry": [4, 2]}],
+        "lines": [
+            {"geometry": [[1, 0], [4, 6]]}
+        ]
+    },
+    "solutions": [
+        {"lines": [[[0, 4], [6, 1]]]}
+    ],
+    "config": {
+        "uiEvalSegmentsAsLines": true
+    }
+}

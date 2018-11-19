@@ -1,19 +1,13 @@
 {
     "text": "Sestrojte rovnoběžku k zadané přímce skrze daný bod.",
     "problem": {
-        "points": [
-            [4, 3]
-        ],
+        "points": [{"geometry": [4, 3]}],
         "lines": [
-            [[1, 6], [3, 0]]
+            {"geometry": [[1, 6], [3, 0]]}
         ]
     },
     "solutions": [
-        {
-            "lines": [
-                [[3, 6], [5, 0]]
-            ]
-        }
+        {"lines": [[[3, 6], [5, 0]]]}
     ],
     "config": {
         "uiEvalSegmentsAsLines": true

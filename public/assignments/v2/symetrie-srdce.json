@@ -1,0 +1,21 @@
+{
+    "text": "Zakreslete všechny osy souměrnosti.",
+    "problem": {
+        "segments": [
+            {"geometry": [[3, 2], [2, 1]]},
+            {"geometry": [[3, 2], [4, 1]]},
+            {"geometry": [[4, 1], [5, 2]]},
+            {"geometry": [[5, 2], [5, 3]]},
+            {"geometry": [[5, 3], [3, 5]]},
+            {"geometry": [[3, 5], [1, 3]]},
+            {"geometry": [[1, 3], [1, 2]]},
+            {"geometry": [[1, 2], [2, 1]]}
+        ]
+    },
+    "solutions": [
+        {"lines": [[[3, 0], [3, 6]]]}
+    ],
+    "config": {
+        "uiEvalSegmentsAsLines": true
+    }
+}

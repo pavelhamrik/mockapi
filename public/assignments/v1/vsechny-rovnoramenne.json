@@ -1,0 +1,18 @@
+{ "text": "Sestrojte všechny rovnoramenné trojúhelníky, které mají vyznačenou úsečku jako základnu a vrchol tvoří jeden z bodů mřížky.",
+    "problem": {
+        "segments": [
+            [[3,6],[6,5]]
+        ]
+    },
+    "solutions": [
+        {
+            "segments": [
+                [[3,6],[6,5]],
+                [[4,4],[6,5]],
+                [[4,4],[3,6]],
+                [[3,1],[3,6]],
+                [[3,1],[6,5]]
+            ]
+        }
+    ]
+}

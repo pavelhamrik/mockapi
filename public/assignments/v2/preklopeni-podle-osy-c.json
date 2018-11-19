@@ -1,0 +1,12 @@
+{
+    "text": "Sestrojte osově symetrický bod. Nápověda: Vytvořte jej jako průsečík dvou úseček.",
+    "problem": {
+        "points": [
+            {"geometry": [1.5, 2.5]}
+        ],
+        "lines": [
+            {"geometry": [[3, 0], [3, 6]]}
+        ]
+    },
+    "solutions": [{"points": [[4.5, 2.5]]}]
+}

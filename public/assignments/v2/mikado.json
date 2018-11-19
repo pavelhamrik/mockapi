@@ -1,0 +1,23 @@
+{
+    "text": "Vyberte dvě rovnoběžky",
+    "problem": {
+        "lines": [
+            {"geometry": [[5, 0], [1, 6]]},
+            {"geometry": [[4, 0], [2, 6]]},
+            {"geometry": [[2, 6], [6, 3]]},
+            {"geometry": [[0, 4], [4, 1]]},
+            {"geometry": [[3, 0], [0, 3]]},
+            {"geometry": [[6, 0], [0, 5]]},
+            {"geometry": [[1, 6], [2.5, 0]]}
+        ]
+    },
+    "solutions": [
+        {
+            "lines": [
+                [[2, 6], [6, 3]],
+                [[0, 4], [4, 1]]
+            ]
+        }
+    ],
+    "config": {"uiOnlySelect": true}
+}

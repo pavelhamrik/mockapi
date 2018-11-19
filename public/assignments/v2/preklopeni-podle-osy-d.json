@@ -1,0 +1,24 @@
+{
+    "text": "Zakreslete vyznačený čtverec osově souměrně podle zadané osy.",
+    "problem": {
+        "segments": [
+            {"geometry": [[4, 4], [4, 5]]},
+            {"geometry": [[4, 5], [5, 5]]},
+            {"geometry": [[5, 5], [5, 4]]},
+            {"geometry": [[5, 4], [4, 4]]}
+        ],
+        "lines": [
+            {"geometry": [[6, 1], [1, 6]]}
+        ]
+    },
+    "solutions": [
+        {
+            "segments": [
+                [[3, 3], [3, 2]],
+                [[3, 2], [2, 2]],
+                [[2, 2], [2, 3]],
+                [[2, 3], [3, 3]]
+            ]
+        }
+    ]
+}
