@@ -3,6 +3,7 @@ import fs from 'fs';
 import cors from 'cors';
 import http from 'http';
 import convertAssignments from './scripts/convert-assignments';
+import bundleAssignments from './scripts/bundle-assignments';
 
 const app = express();
 const PORT = process.env.PORT || 3443;
@@ -36,6 +37,16 @@ app.get('/api/v2/assignments/:id?', cors(), (req, res) => {
     res.status(200).send(
         getJSON('./public/assignments/v2', req.params.id)
     )
+});
+
+app.get('/api/v2/bundle-assignments/', cors(), (req, res) => {
+    res.status(200).send(
+        bundleAssignments('./public/assignments/v2')
+    )
+});
+
+app.get('/api/timeout/', cors(), (req, res) => {
+    setTimeout(() => {res.status(200).send({})}, 3600000);
 });
 
 app.get('/api/v2/convert-assignments/', cors(), (req, res) => {
