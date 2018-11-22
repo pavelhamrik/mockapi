@@ -1,5 +1,5 @@
 {
-    "text": "Ze zadaných bodů vyberte čtyři, které leží na jedné přímce.",
+    "text": "Ze zadaných bodů vyberte <em>čtyři</em>, které leží na jedné přímce. \\begin{katex}c = \\pm\\sqrt{a^2 + b^2} \\end{katex}",
     "problem": {
         "points": [
             {
