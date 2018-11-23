@@ -57,6 +57,31 @@ app.get('/api/v2/convert-assignments/', cors(), (req, res) => {
     else {res.status(500).send({"status": JSON.stringify(conversion.error, null, 2)})}
 });
 
+app.all('/api/v2/log/', cors(), (req, res) => {
+    console.log({
+        url: req.url,
+        method: req.method,
+        statusCode: req.statusCode,
+        origin: req.headers.origin,
+    });
+    res.status(200).send();
+});
+
+process.on('uncaughtException', function (err) {
+    console.log('Closing server upon uncaught exception:\n', err);
+    server.close();
+});
+
+process.on('SIGTERM', function () {
+    console.log('Closing server upon SIGTERM');
+    server.close();
+});
+
+process.on('SIGINT', function () {
+    console.log('Closing server upon SIGINT');
+    server.close();
+});
+
 const server = http.createServer(app);
 
 server.on('error', (err) => {
@@ -74,13 +99,3 @@ server.on('listening', () => {
 });
 
 server.listen(PORT);
-
-process.on('uncaughtException', function (err) {
-    console.log('Closing server upon uncaught exception:\n', err);
-    server.close();
-});
-
-process.on('SIGTERM', function () {
-    console.log('Closing server upon SIGTERM');
-    server.close();
-});
