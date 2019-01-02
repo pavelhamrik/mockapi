@@ -9,7 +9,7 @@ export default function bundleAssignments(from) {
                 const contents = JSON.parse(fs.readFileSync(`${from}/${fileName}`, {encoding: 'utf-8'}));
                 return {
                     id: index,
-                    name: fileName.replace('.json', ''),
+                    name: contents.name || fileName.replace('.json', ''),
                     item: contents,
                     explanation: '',
                 }
