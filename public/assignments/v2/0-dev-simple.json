@@ -1,0 +1,16 @@
+{
+    "text": "Nakreslete úsečku délky \\begin{katex}6\\sqrt{2}\\end{katex} procházející bodem A",
+    "name": "Vývojářské zadání",
+    "problem": {
+        "points": [
+            {"geometry": [4, 2], "label": {"text": "A", "position": [1, 1]}}
+        ]
+    },
+    "solutions": [
+        {
+            "lines": [
+                [[6, 0], [0, 6]]
+            ]
+        }
+    ]
+}
