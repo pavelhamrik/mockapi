@@ -19,5 +19,8 @@
             ]
         }
     ],
-    "config": {"uiOnlySelect": true}
+    "config": {
+        "uiOnlySelect": true,
+        "maxUserLines": 2
+    }
 }
