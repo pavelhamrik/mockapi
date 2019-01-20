@@ -1,0 +1,17 @@
+{
+    "text": "Vytvořte úsečku [A, B]",
+    "name": "Dev: Spojování úseček",
+    "problem": {
+        "points": [
+            {"geometry": [2, 3], "label": {"text": "A"}},
+            {"geometry": [4, 3], "label": {"text": "B"}}
+        ]
+    },
+    "solutions": [
+        {
+            "segments": [
+                [[2, 3], [4, 3]]
+            ]
+        }
+    ]
+}

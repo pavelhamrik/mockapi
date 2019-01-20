@@ -1,0 +1,16 @@
+{
+    "text": "Play the playground!",
+    "problem": {
+        "points": [
+            {"geometry": [1, 5]},
+            {"geometry": [5, 1]}
+        ]
+    },
+    "solutions": [
+        {
+            "segments": [
+                [[1, 5], [5, 1]]
+            ]
+        }
+    ]
+}
